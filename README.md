@@ -23,12 +23,12 @@ Vitest & @vue/test-utils
 
 Font Awesome / Material Design Icons
 
-Başlatmak için
+Başlatmak için:
 npm install
 npm run dev
 
 
-Test Çalıştırma
+Test Çalıştırma:
 npm run test
 npm run coverage
 
