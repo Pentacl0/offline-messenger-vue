@@ -1,0 +1,45 @@
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.v-application--wrap,
+.v-main,
+.v-container,
+.v-row,
+.v-col {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box;
+}
+
+.fill-height {
+  height: 100vh !important;
+}
+
+.chat-list {
+  width: 100% !important;
+  height: 100vh !important;
+  background-color: #1d2935;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.chat-window {
+  height: 100vh !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+.chat-input input,
+.chat-input button {
+  box-sizing: border-box;
+}
